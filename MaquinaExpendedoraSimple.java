@@ -13,6 +13,7 @@ class MaquinaExpendedoraSimple {
     
     
     
+    
 
     /**
      * Crea una maquina expendedora de billetes de tren con el 
@@ -48,11 +49,13 @@ class MaquinaExpendedoraSimple {
     }
     
     /**
-     * Devuelve el precio del billete
+     * Cambia el precio del billete
      */
-    public int getter() {
-        return totalDineroAcumulado;
+    public int setPrecioDelBillete(int precioDelBillete) {
+        return precioBillete = precioDelBillete;
     }
+    
+    
 
     /**
      * Devuelve la cantidad de dinero que el cliente actual lleva introducida
